@@ -1,0 +1,47 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    /* The box-sizing property allows us to include the padding and border in an element's total width and height.
+     
+ */
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+#center {
+    /* background-color: red; */
+    height: 70%;
+    width: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    
+    
+}
+
+.divimage{
+    position: absolute;
+    height: 250px;
+    width:190px;
+    /* background-color: yellow; */
+    overflow: hidden;
+  
+
+}
+
+.divimage img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    transform: translateY(100%);
+
+}
